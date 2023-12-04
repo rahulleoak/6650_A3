@@ -1,0 +1,16 @@
+#JAVA
+go to ssh AWS
+go to bin --> ./startup.sh
+go to webapp -> war file -> ./file.war
+
+
+sudo systemctl daemon-reload
+sudo systemctl start tomcat
+sudo systemctl enable tomcat
+
+
+systemctl status tomcat
+sudo service tomcat stop
+
+cd "C:\Program Files\RabbitMQ Server\rabbitmq_server-x.y.z\sbin"
+rabbitmq-plugins enable rabbitmq_management
